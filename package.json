@@ -1,0 +1,16 @@
+{
+  "name": "technician_project",
+  "version": "1.0.0",
+  "description": "Technician project focusing in the main fundamentals of typescript language, debug and tests, redis and security of the whole code.",
+  "license": "ISC",
+  "author": "Henrico Hosaki Silva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.21.0"
+  }
+}
