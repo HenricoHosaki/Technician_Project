@@ -1,0 +1,33 @@
+{
+  "name": "technician_project",
+  "version": "1.0.0",
+  "description": "Technician project focusing in the main fundamentals of typescript language, debug and tests, redis and security of the whole code.",
+  "license": "ISC",
+  "author": "Henrico Hosaki Silva",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "bcrypt-ts": "^8.0.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "ioredis": "^5.9.2",
+    "jsonwebtoken": "^9.0.3",
+    "prisma": "^7.3.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.1.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
